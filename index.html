@@ -1,0 +1,296 @@
+
+
+<DOCTYPE html>
+    <title>Overview of SegPath</title>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Overview of SegPath">
+    <meta name="author" content="Ruilong">
+
+    <meta property="og:image" content="https://github.com/HirotoODK/github-pages/view.png">
+    <meta property="og:url" content="https://github.com/HirotoODK/github-pages">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Overview of SegPath">
+    <meta property="og:description" content="Overview of SegPath">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JM2CPK6QLP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-JM2CPK6QLP');
+    </script>
+</head>
+    <style>
+        html{
+            font-size:20px;
+        }
+        /* greek-ext */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format('woff2');
+            unicode-range: U+1F00-1FFF;
+        }
+
+        /* greek */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format('woff2');
+            unicode-range: U+0370-03FF;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* greek-ext */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+            unicode-range: U+1F00-1FFF;
+        }
+
+        /* greek */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+            unicode-range: U+0370-03FF;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <body>
+        <div class="container">
+            <div class="mb-4 mt-5" id="paper-title">
+                <h1 class="text-center">
+                    Overview of SegPath
+                </h1>
+            </div>
+            <div class="my-4 pt-2 mx-5">
+                <div class="mx-auto">
+                    <div class="mb-4">
+                        <span></span><img src="images/overview.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <p class="text-justify">
+                        SegPath is created for the semantic segmentation of H&E images
+                        for eight major cell types in tumor tissue.
+                        <br>
+                        <br>
+                        The dataset is constructed by immunofluorescence restaing.
+                        First, sections were stained with H&E.
+                        They were then digitized using a slide scanner
+                        to create whole slide images (WSIs).
+                        After destaining the H&E-stained sections with alcohol and autoclave processing,
+                        IF and 4',6-diamidino-2-phenylindole dihydrochloride (DAPI) nuclear staining
+                        were performed using antibodies that specifically recognized each cell type.
+                        The slides were then digitized again.
+                        Multiresolution rigid registration between the H&E and
+                        IF images was performed to ensure that the haematoxylin component
+                        in the H&E images and DAPI in the IF images, both recognizing nuclei, had been aligned.
+                    </p>
+                </div>
+            </div>
+            <div class="mb-4 pt-3  mx-5">
+                <div class="mx-auto">
+                    <h4 class="pb-2"><strong>Cell types in SegPath</strong></h4>
+                    <p class="text-justify">
+                        - anti-panCK (epithelial cells)
+                    </p>
+                    <div>
+                        <span></span><img src="images/AE13_1.png" class="img-fluid">
+                    </div>
+                    <p class="text-justify">
+                        <a href="https://zenodo.org/record/6456714" target="_blank">https://zenodo.org/record/6456714</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="mb-4 pt-3  mx-5">
+                <div class="mx-auto">
+                    <p class="text-justify">
+                        - anti-αSMA (smooth muscle cells/myofibroblasts)
+                    </p>
+                    <div>
+                        <span></span><img src="images/SMA.png" class="img-fluid">
+                    </div>
+                    <p class="text-justify">
+                        <a href="https://zenodo.org/record/6456722" target="_blank">https://zenodo.org/record/6456722</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="mb-4 pt-3  mx-5">
+                <div class="mx-auto">
+                    <p class="text-justify">
+                        - anti-CD235a (red blood cells)
+                    </p>
+                    <div>
+                        <span></span><img src="images/GLPA.png" class="img-fluid">
+                    </div>
+                    <p class="text-justify">
+                        <a href="https://zenodo.org/record/6451383" target="_blank">https://zenodo.org/record/6456722</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="mb-4 pt-3  mx-5">
+                <div class="mx-auto">
+                    <p class="text-justify">
+                        - anti-CD45RB (leukocytes)
+                    </p>
+                    <div>
+                        <span></span><img src="images/CD45_cellpose.png" class="img-fluid">
+                    </div>
+                    <p class="text-justify">
+                        <a href="https://zenodo.org/record/6456712" target="_blank">https://zenodo.org/record/6456722</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="mb-4 pt-3 mx-5">
+                <div class="mx-auto">
+                    <p class="text-justify">
+                         - anti-CD3/CD20 (lymphocytes)
+                    </p>
+                    <div>
+                        <span></span><img src="images/CD3_CD20_cellpose.png" class="img-fluid">
+                    </div>
+                    <p class="text-justify">
+                        <a href="https://zenodo.org/record/6456710" target="_blank">https://zenodo.org/record/6456722</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="mb-4 pt-3 mx-5">
+                <div class="mx-auto">
+                    <p class="text-justify">
+                       - anti-ERG (endothelial cells)
+                    </p>
+                    <div>
+                        <span></span><img src="images/ERG_cellpose2.png" class="img-fluid">
+                    </div>
+                    <p class="text-justify">
+                        <a href="https://zenodo.org/record/6451375" target="_blank">https://zenodo.org/record/6456722</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="mb-4 pt-3 mx-5">
+                <div class="mx-auto">
+                    <p class="text-justify">
+                       - anti-MIST1 (plasma cells)
+                    </p>
+                    <div>
+                        <span></span><img src="images/MIST1_cellpose2.png" class="img-fluid">
+                    </div>
+                    <p class="text-justify">
+                        <a href="https://zenodo.org/record/6342445" target="_blank">https://zenodo.org/record/6456722</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="mb-4 pt-3 mx-5">
+                <div class="mx-auto">
+                    <p class="text-justify">
+                       - anti-MNDA (myeloid cells)
+                    </p>
+                    <div>
+                        <span></span><img src="images/MNDA_cellpose.png" class="img-fluid">
+                    </div>
+                    <p class="text-justify">
+                        <a href="https://zenodo.org/record/6451369" target="_blank">https://zenodo.org/record/6456722</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="mb-2 pt-3 mx-5">
+                <div class="mx-auto">
+                    <h4><strong>Dataset organization</strong></h4>
+                    <p class="text-justify">
+                      A Tar.gz file contains the following files:<br>
+                      - HE image file:
+                    <span style="word-break: break-all;">
+                      {antigen}_{celltype}_{slideID}_{posx}_{posy}_HE.png
+                    </span><br>
+                      - Mask image file:
+                    <span style="word-break: break-all;">
+                      {antigen}_{celltype}_{slideID}_{posx}_{posy}_mask.png
+                    </span><br>
+                      Each image file is 984x984 px.<br>
+                      posX and posY are the leftmost position in WSI coordinate.<br>
+                      Mask files store binary segmentation mask (background : 0, target : 1)<br>
+                      <br>
+                      A csv file contains the following information:<br>
+                      antigen : Antibodies for this antigen were used to create the segmentation mask.<br>
+                      filename: filename of image or mask file.<br>
+                      train_val_test : train, validation, or test sample in the paper.
+                    </p>
+                </div>
+            </div>
+            <div class="mb-5 pt-2  mx-5" id="license">
+                <div class="mx-auto grey-container mb-5 ">
+                    <h4><strong>Licenses</strong></h4>
+                    <p class="text-justify">
+                      This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (<b>CC-BY-NC-SA 4.0</b>)<br>
+                      For non-commercial use, please use the dataset under CC-BY-NC-SA.<br>
+                      If you would like to use the dataset for commercial purposes, please contact us (ishum-prm@m.u-tokyo.ac.jp).
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- container -->
+    </body>
+
+</DOCTYPE>
