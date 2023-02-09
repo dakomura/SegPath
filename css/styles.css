@@ -507,11 +507,13 @@ p.sectionText {
   bottom: 0%;
   opacity: 0;
   transition: 0.4s;
+  pointer-events: none;
 }
 .tabContents.active {
   opacity: 1;
   transition: 0.4s;
   display: contents;
+  pointer-events: auto;
 }
 
 .tableContentsWrap {
