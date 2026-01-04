@@ -564,26 +564,33 @@
             </div>
             <div class="sectionTextWrap">
               <p>
-                A Tar.gz file contains the following files:<br />
-                - HE image file:
-                {antigen}_{celltype}_{slideID}_{posx}_{posy}_HE.png<br />
-                - Mask image file:
-                {antigen}_{celltype}_{slideID}_{posx}_{posy}_mask.png<br />
+                A Tar.gz file contains the following files:
+              </p>
+              <ul>
+                <li>HE image file: <code>{antigen}_{celltype}_{slideID}_{posx}_{posy}_HE.png</code></li>
+                <li>Mask image file: <code>{antigen}_{celltype}_{slideID}_{posx}_{posy}_mask.png</code></li>
+              </ul>
+              <p>
                 Each image file is 984x984 px.<br />
                 posX and posY are the leftmost position in WSI coordinate.<br />
-                Mask files store binary segmentation mask (background : 0,
-                target : 1).<br />
-                The correspondence between slideID and tissue type is provided in 
-                Table S2 of our paper, which can be found in the supplementary materials at 
-                https://www.sciencedirect.com/science/article/pii/S2666389923000193#appsec2.
+                Mask files store binary segmentation mask (background: 0, target: 1).
               </p>
               <p>
-                A csv file contains the following information:<br />
-                antigen : Antibodies for this antigen were used to create the
-                segmentation mask.<br />
-                filename: filename of image or mask file.<br />
-                train_val_test : train, validation, or test sample in the paper.
+                The correspondence between slideID and tissue type is provided in Table S2 of our paper, 
+                which can be found in the supplementary materials at 
+                <a href="https://www.sciencedirect.com/science/article/pii/S2666389923000193#appsec2" target="_blank">
+                  this link
+                </a>.
               </p>
+              
+              <p>
+                A csv file contains the following information:
+              </p>
+              <ul>
+                <li><strong>antigen</strong>: Antibodies for this antigen were used to create the segmentation mask.</li>
+                <li><strong>filename</strong>: filename of image or mask file.</li>
+                <li><strong>train_val_test</strong>: train, validation, or test sample in the paper.</li>
+              </ul>
             </div>
           </div>
         </section>
